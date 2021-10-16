@@ -6,7 +6,7 @@
 /*   By: evikings <evikings@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/16 14:08:44 by evikings          #+#    #+#             */
-/*   Updated: 2021/10/16 21:54:52 by evikings         ###   ########.fr       */
+/*   Updated: 2021/10/16 22:19:11 by evikings         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,10 @@ DESCRIPTION
 #include <stdio.h>
 #include <stdlib.h>
 
-int	ft_atoi(const char *str);
+int	ft_atoi(const char *str)
 {
-	int	res
-	int	sign
+	int	res;
+	int	sign;
 
 	res = 0;
 	sign = 1;
